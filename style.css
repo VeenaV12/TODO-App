@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('bg.jpeg');
+    background-size: cover;
+}
+
+#form{
+    border: 1px solid grey;
+    background-color: white;
+    padding: 25px 25px;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 75px;   
+}
+
+
+   
+tr:nth-child(even) {
+
+    background-color: #D6EEEE;
+    border: 1px solid green; 
+} 
+  
+
+#table {
+    margin: 0 auto;  /* Center horizontally */
+    width: fit-content; /* Optional: Adjust width as needed */
+    text-align: center; /* Optional: Center table content within the container */
+  }
